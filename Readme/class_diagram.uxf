@@ -1,0 +1,84 @@
+<diagram program="umletino" version="15.1"><zoom_level>9</zoom_level><element><id>UMLClass</id><coordinates><x>243</x><y>306</y><w>189</w><h>171</h></coordinates><panel_attributes>&lt;&lt;Accomodation&gt;&gt;
+Package::domain
+{Some Properties}
+--
+-String accType
+-String roomName
+-int numOfPersons
+-Area area
+-int stars
+-int numOfRevieus
+-Image roomImage
+-boolean available
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>567</x><y>306</y><w>189</w><h>171</h></coordinates><panel_attributes>&lt;&lt;Area&gt;&gt;
+Package::domain
+{Some Properties}
+--
+-String city
+-String  road
+-String number
+-String zipCode
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>243</x><y>558</y><w>189</w><h>171</h></coordinates><panel_attributes>&lt;&lt;Reservation&gt;&gt;
+Package::domain
+{Some Properties}
+--
+-Accomodation accomodation
+-Tenant tenant
+-int numOfPeople
+-ReservationDate date
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1044</x><y>558</y><w>189</w><h>171</h></coordinates><panel_attributes>&lt;&lt;ReservationDate&gt;&gt;
+Package::domain
+{Some Properties}
+--
+-Date start
+-Date end
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>243</x><y>837</y><w>189</w><h>171</h></coordinates><panel_attributes>&lt;&lt;Tenant&gt;&gt;
+Package::domain
+{Some Properties}
+--
+-String name
+
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>243</x><y>36</y><w>189</w><h>171</h></coordinates><panel_attributes>&lt;&lt;Image&gt;&gt;
+Package::domain
+{Some Properties}
+--
+-String address
+
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1116</x><y>468</y><w>126</w><h>108</h></coordinates><panel_attributes>lt=-
+m1=0..n
+m2=1
+has ReservationDate</panel_attributes><additional_attributes>10;100;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>936</x><y>306</y><w>387</w><h>171</h></coordinates><panel_attributes>&lt;&lt;SearchImplemantaion&gt;&gt;
+Package::domain
+{Some Properties}
+--
+-ReservationDate 
+--
++searchAccomodations(area: Area, date: ReservationDate):Accomadation
+
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>423</x><y>396</y><w>162</w><h>45</h></coordinates><panel_attributes>lt=-
+m1=0..n
+m2=1
+has accomodations</panel_attributes><additional_attributes>10;20;160;20</additional_attributes></element><element><id>Relation</id><coordinates><x>747</x><y>378</y><w>207</w><h>45</h></coordinates><panel_attributes>lt=-
+m1=0..n
+m2=1
+has areas</panel_attributes><additional_attributes>10;20;210;20</additional_attributes></element><element><id>Relation</id><coordinates><x>315</x><y>468</y><w>36</w><h>108</h></coordinates><panel_attributes>lt=-
+m1=1
+m2=1
+</panel_attributes><additional_attributes>10;10;10;100</additional_attributes></element><element><id>Relation</id><coordinates><x>423</x><y>639</y><w>639</w><h>45</h></coordinates><panel_attributes>lt=-
+m1=1
+m2=1
+</panel_attributes><additional_attributes>10;20;690;20</additional_attributes></element><element><id>Relation</id><coordinates><x>315</x><y>720</y><w>36</w><h>135</h></coordinates><panel_attributes>lt=-
+m1=1
+m2=1
+</panel_attributes><additional_attributes>10;10;10;130</additional_attributes></element><element><id>Relation</id><coordinates><x>324</x><y>198</y><w>36</w><h>126</h></coordinates><panel_attributes>lt=-
+m1=1
+m2=1
+</panel_attributes><additional_attributes>10;10;10;120</additional_attributes></element><element><id>Relation</id><coordinates><x>9</x><y>9</y><w>171</w><h>27</h></coordinates><panel_attributes>lt=&lt;..</panel_attributes><additional_attributes>10;10;170;10</additional_attributes></element><element><id>Relation</id><coordinates><x>1116</x><y>144</y><w>27</w><h>180</h></coordinates><panel_attributes>lt=&lt;..</panel_attributes><additional_attributes>10;10;10;180</additional_attributes></element><element><id>UMLInterface</id><coordinates><x>1062</x><y>63</y><w>126</w><h>90</h></coordinates><panel_attributes>Search
+--
+searchAccomodations
+</panel_attributes><additional_attributes></additional_attributes></element></diagram>
