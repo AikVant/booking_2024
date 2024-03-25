@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="31963eb8-a302-4195-8df2-0c9644bb57e1" name="Changes" comment="add Accomodation, Area">
-      <change afterPath="$PROJECT_DIR$/src/domain/Reservation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/domain/ReservationDate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/domain/Tenant.java" afterDir="false" />
-    </list>
+    <list default="true" id="31963eb8-a302-4195-8df2-0c9644bb57e1" name="Changes" comment="add Reservation, ReservationDate, Tenant" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +16,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -68,7 +65,14 @@
       <option name="project" value="LOCAL" />
       <updated>1711386275360</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add Reservation, ReservationDate, Tenant">
+      <created>1711386889364</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1711386889364</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -85,6 +89,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add Image" />
     <MESSAGE value="add Accomodation, Area" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Accomodation, Area" />
+    <MESSAGE value="add Reservation, ReservationDate, Tenant" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Reservation, ReservationDate, Tenant" />
   </component>
 </project>
