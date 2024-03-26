@@ -1,0 +1,63 @@
+[{
+  "roomeName": "room1",
+  "noOfPersons": 5,
+  "area": "Area1",
+  "stars": 3,
+  "noOfReviews": 15,
+  "roomImage": "image1"
+},
+{
+  "roomeName": "room2",
+  "noOfPersons": 2,
+  "area": "Area2",
+  "stars": 2,
+  "noOfReviews": 10,
+  "roomImage": "image2"
+},
+  {
+    "roomeName": "room3",
+    "noOfPersons": 4,
+    "area": "Area3",
+    "stars": 5,
+    "noOfReviews": 20,
+    "roomImage": "image3"
+  },
+  {
+    "roomeName": "room4",
+    "noOfPersons": 3,
+    "area": "Area1",
+    "stars": 3,
+    "noOfReviews": 15,
+    "roomImage": "image5"
+  },
+  {
+    "roomeName": "room5",
+    "noOfPersons": 2,
+    "area": "Area2",
+    "stars": 2,
+    "noOfReviews": 12,
+    "roomImage": "image2"
+  },
+  {
+    "roomeName": "room6",
+    "noOfPersons": 3,
+    "area": "Area3",
+    "stars": 4,
+    "noOfReviews": 30,
+    "roomImage": "image3"
+  },{
+  "roomeName": "room7",
+  "noOfPersons": 2,
+  "area": "Area2",
+  "stars": 2,
+  "noOfReviews": 8,
+  "roomImage": "image2"
+},
+  {
+    "roomeName": "room8",
+    "noOfPersons": 4,
+    "area": "Area3",
+    "stars": 5,
+    "noOfReviews": 22,
+    "roomImage": "image3"
+  }]
